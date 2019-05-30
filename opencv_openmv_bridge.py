@@ -49,7 +49,10 @@ class Camera:
 
 
 currentFrame = 0
+
 while(True):
+    # Create a camera by just giving the ttyACM depending on your connection value
+    # Change the following line depending on your connection
     cap = Camera(device='/dev/ttyACM0')
     # Capture frame-by-frame
     im1 = cap.read_image()
