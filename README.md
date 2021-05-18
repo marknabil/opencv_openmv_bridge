@@ -2,7 +2,7 @@
 This is a minimal code to use openMV camera in openCV on your computer. This code is tested on ubuntu 16.04 but should work on any ubuntu machine with opencv
 
 This Bridge consists of 2 simple codes, one is provided by the openMV team. This code should be on the flash memory of the opennMV board. you can have a look at it from here : https://github.com/openmv/openmv/blob/master/scripts/examples/02-Board-Control/usb_vcp.py
-
+This code is referred as _main.py_ in this project documentation. 
 The 2nd code is the opencv based code. It is very small and self explaining itself.
 
 ## Setup
