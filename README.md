@@ -3,7 +3,8 @@ This is a minimal code to use openMV camera in openCV on your computer. This cod
 
 This Bridge consists of 2 simple codes, one is provided by the openMV team. This code should be on the flash memory of the opennMV board. you can have a look at it from here : https://github.com/openmv/openmv/blob/master/scripts/examples/02-Board-Control/usb_vcp.py
 This code is referred as _main.py_ in this project documentation. 
-The 2nd code is the opencv based code. It is very small and self explaining itself.
+
+The 2nd code is the opencv based code. Reffered as _opencv_openmv_bridge.py_, it is very small and self explaining itself.
 
 ## Setup
 1- copy the _main.py_ to your openMV board through either the official IDE. Or simply by copying it to the device.
